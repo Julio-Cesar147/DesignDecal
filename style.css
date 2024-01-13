@@ -1,0 +1,170 @@
+body{
+    background-image: url('Netflix_Fondo.jpg');
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: transparent;
+}
+
+header{
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent) !important;
+    width: 100%;
+    height: 90px;
+    border-bottom: transparent;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 167px;
+    height: 45px;
+    margin-left: 7vh;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 32px;
+    width: 314px;
+    height: 43px;
+    margin: 0 0 28px;
+}
+
+button {
+    background: #e50914; 
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+label{
+    color: #B3B3B3;
+    font-size: 13px;
+}
+
+a{
+    margin-left: 31%;
+    color: #B3B3B3;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+p{
+    margin: 60PX 0PX 10PX;
+    color: #B3B3B3;
+    font-size: 16px;
+    text-align: start;
+}
+
+span{
+    color: #8C8C8C;
+    font-size: 13px;
+}
+
+footer{
+    background-color: rgba(0,0,0,.75);
+    width: 100%;
+    height: 250px;
+    padding: 30px 0px;
+    text-align: start;
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+    color: #737373;
+    display: block;
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1000px;
+}
+
+footer ul {
+    column-count: 4;
+    column-gap: 20px;
+}
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+select{
+    margin-left: 170px;
+    margin-top: 30px;
+    padding: 12px;
+    padding-right: 26px;
+    padding-left: 50px;
+    text-indent: 0;
+    line-height: 1.7;
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #737373;
+}
+
+.ui-select{
+    background: #000;
+}
+
+.container-login{
+    background-color: rgba(0,0,0,.75);
+    min-height: 660px;
+    min-width: 450px;
+    margin-bottom: 90px;
+    padding: 60px 60px 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.form-main{
+    width: 314px;
+    height: auto;
+    display: block;
+    position: absolute;
+}
+
+.entradas{
+    background: #333;
+    color: #8C8C8C;
+    width: 100%;
+    height: 50px;
+    padding: 16px 20px 0px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.entradas:focus{
+    color: #B3B3B3;
+    outline: none;
+}
+
+.subs{
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.moreInfo{
+    color: #0071eb;
+    margin-left: 1px;
+    font-size: 13px;
+}
+
+.footer-top{
+    color: #737373;
+    font-size: 16px;
+    margin-left: 170px;
+    margin-bottom: 30px;
+}
